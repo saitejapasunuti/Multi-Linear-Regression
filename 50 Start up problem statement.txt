@@ -1,0 +1,25 @@
+Prepare a prediction model for profit of 50_startups data.
+Do transformations for getting better predictions of profit and
+make a table containing R^2 value for each prepared model.
+
+pandas is used for data manipulation,cleaning and analysis.
+numpy is used for scientific calculations.
+describe() is used to know some statistical caluculations like mean,count,std,min,max.
+
+seaborn library-it is used to give more attractive and informative representations of the diagrams.
+
+seaborn.pairplot()-pairplot is a grid of plots for each variable in the dataset.
+
+iloc is used to represent the require data by selecting the rows and columns.
+it is also used to select the require data from the dataset and  drop the empty data .
+
+
+statsmodel.formula.api-used for doing statistical calculations
+
+vif-variance inflation factor=>vif>10 =>multiple collinearity
+
+sklearn.model_selection- spilt arrays and matrices in random train and test datasets.
+
+train_test_split=it is a function in sklearn.model_selection for splitting data arrays into two subsets :for testing data and traing data. 
+
+multi collinearity:when one variable predicts other it is called multi collinearity.
